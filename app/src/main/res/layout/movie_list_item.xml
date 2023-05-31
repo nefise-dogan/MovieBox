@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="16dp">
+
+    <ImageView
+        android:id="@+id/imageViewMovieImage"
+        android:layout_width="96dp"
+        android:layout_height="128dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/shawshank_redemption"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/movieName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="The Shawshank Redemption"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/movieYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="1994"
+            android:textStyle="italic"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/movieDirector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Frank Darabont"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/starOne"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/ic_star_outline_24" />
+
+            <Button
+                android:id="@+id/starTwo"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/ic_star_outline_24" />
+
+            <Button
+                android:id="@+id/starThree"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/ic_star_outline_24" />
+
+            <Button
+                android:id="@+id/starFour"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/ic_star_outline_24" />
+
+            <Button
+                android:id="@+id/starFive"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/ic_star_outline_24" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

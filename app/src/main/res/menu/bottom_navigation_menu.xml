@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/exploreMoviesFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_explore_24"
+        android:title="Explore"/>
+    <item
+        android:id="@id/watchListFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_watch_later_24"
+        android:title="Watch Later"/>
+    <item
+        android:id="@+id/watchedFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_watched_24"
+        android:title="Watched"/>
+</menu>
